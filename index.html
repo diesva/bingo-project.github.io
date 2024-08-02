@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bingo</h1>
+        <div class="controls">
+            <input type="text" id="codigoCarton" placeholder="Código del cartón">
+            <button id="crearCarton">Crear Cartón</button>
+        </div>
+        <div id="cartonForm"></div>
+        <div class="controls">
+            <input type="number" id="numeroEntrada" placeholder="Ingresa un número">
+            <button id="marcarNumero">Marcar Número</button>
+            <button id="revertirNumero">Revertir Último Número</button>
+            <button id="limpiarNumeros">Limpiar Números</button>
+        </div>
+        <div id="numerosCartones"></div>
+        <div id="resultado"></div>
+    </div>
+
+    <footer>
+        <p>Créditos: Diego Esquivel</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
